@@ -7,7 +7,10 @@ const BrowserWindow = electron.BrowserWindow
 const ipc = electron.ipcMain
 
 let mainWindow
+
+const windows = [];
 app.on('ready',_=>{
+	
 	mainWindow = new BrowserWindow({
 		height:200,
 		width:200

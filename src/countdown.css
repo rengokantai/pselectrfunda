@@ -1,0 +1,19 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.countdown{
+	margin-bottom: 20px;
+	font-size: 100px;
+}
+.btn{
+	display: block;
+	padding: 20px 20px;
+	border: 0;
+	background-color: rgba(190,12,32);
+	font-size: 20px;
+}
